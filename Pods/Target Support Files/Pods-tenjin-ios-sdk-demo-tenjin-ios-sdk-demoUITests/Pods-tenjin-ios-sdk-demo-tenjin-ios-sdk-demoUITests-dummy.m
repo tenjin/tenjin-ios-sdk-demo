@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_tenjin_ios_sdk_demo_tenjin_ios_sdk_demoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_tenjin_ios_sdk_demo_tenjin_ios_sdk_demoUITests
+@end
