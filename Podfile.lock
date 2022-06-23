@@ -1,16 +1,20 @@
 PODS:
+  - AppLovinSDK (11.3.2)
   - TenjinSDK (1.12.15)
 
 DEPENDENCIES:
+  - AppLovinSDK
   - TenjinSDK
 
 SPEC REPOS:
   trunk:
+    - AppLovinSDK
     - TenjinSDK
 
 SPEC CHECKSUMS:
+  AppLovinSDK: e0bf2984979b082f7c167e4babc3290b4eac5f24
   TenjinSDK: ddce8e6f35358dcef1c047a0254d967c2b784b88
 
-PODFILE CHECKSUM: 87340f89a6979d258490b148ee1d33335ba68e74
+PODFILE CHECKSUM: 5c9eb0dc400ce5d4fbeb7a87fad2f4759ee4b5b5
 
 COCOAPODS: 1.11.3

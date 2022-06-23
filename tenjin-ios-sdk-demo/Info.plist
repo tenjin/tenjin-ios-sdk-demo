@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAdvertisingAttributionReportEndpoint</key>
+	<string>https://tenjin-skan.com</string>
+	<key>AppLovinSdkKey</key>
+	<string>T9uaQt-cgbA5tOPtTKv1hdtNehCr8Frfz4M3mPWpBIHD-GGkQ1uwwK2TgBxMgzhaRNb2oeNyLuEzpVFQsT5lku</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>We will use your data to provide a better and personalized ad experience</string>
 	<key>UIApplicationSceneManifest</key>

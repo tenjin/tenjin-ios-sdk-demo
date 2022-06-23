@@ -7,6 +7,7 @@ target 'tenjin-ios-sdk-demo' do
 
   # Pods for tenjin-ios-sdk-demo
   pod 'TenjinSDK'
+  pod 'AppLovinSDK'
 
   target 'tenjin-ios-sdk-demoTests' do
     inherit! :search_paths

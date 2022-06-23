@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1137672E97496FACD0DD9E48E86C50EF /* Build configuration list for PBXAggregateTarget "AppLovinSDK" */;
+			buildPhases = (
+				0767D10B049CB169F35806FA0DC22F33 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AppLovinSDK;
+		};
 		E84B54C67AA2D084821E0B65836373F4 /* TenjinSDK */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = E0B70FFA39A31007FFA49A7361612EC0 /* Build configuration list for PBXAggregateTarget "TenjinSDK" */;
@@ -19,83 +29,104 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0019F2317C49C232AF454F2407FC980A /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E085271938020230F3F42E0D237E9E /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B5B342CB147CFDA57F800FE970417F5 /* Pods-tenjin-ios-sdk-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B474FBCD65AD0E473FA22DDDDFD4037 /* Pods-tenjin-ios-sdk-demo-dummy.m */; };
-		1A02A206C02D9CF8A0BEAFEB5DD51746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		20CD12EC39ACBFB90C5EEED08318C614 /* Pods-tenjin-ios-sdk-demoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EBF86684E2A7ADA9560F6B1E749DB2 /* Pods-tenjin-ios-sdk-demoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48842624C7D19A07300FE4E4D9745BF0 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1583E5B566190A3B5E46D62B9524F206 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m */; };
-		6E605A45C0E27413A5A32694A078953D /* Pods-tenjin-ios-sdk-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D14B421E8CDBF8E749DA1652739005EB /* Pods-tenjin-ios-sdk-demoTests-dummy.m */; };
-		8F6532AC11828227A29C25E5165751ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B41F859AAF38A7FC85851ACE81FBBA1B /* Pods-tenjin-ios-sdk-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D561302A35B692BF1C0770306B9F9B /* Pods-tenjin-ios-sdk-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196C247FA4DC1D68EB86D72A33081DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		20CD12EC39ACBFB90C5EEED08318C614 /* Pods-tenjin-ios-sdk-demoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AFFA423EC0872F2B197D8E8550F21C /* Pods-tenjin-ios-sdk-demoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E605A45C0E27413A5A32694A078953D /* Pods-tenjin-ios-sdk-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F94AE69AD6A81FA92DF6C80E84340 /* Pods-tenjin-ios-sdk-demoTests-dummy.m */; };
+		7536006C5EAAF25781C8FD238BC56764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9B858270A87E53F70D80777178EC1B55 /* Pods-tenjin-ios-sdk-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0C516BC366C12C57A15E7A7AAEAA8 /* Pods-tenjin-ios-sdk-demo-dummy.m */; };
+		A92EB4637B60DFD5DEDDFF8D5BA518F8 /* Pods-tenjin-ios-sdk-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B6B25A61BF8933FD956BFE12C2B14B /* Pods-tenjin-ios-sdk-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D3FA4E6A26F0EA0FA40B83CC337D11 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E40D69EF37B58638DEE23B956A3185 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4F73569238BA24104CA58C30F9C798A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EBB4211D91E63E393B259CC8B5D2C093 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C92931C1F85FC377CB7AE9BB4E142AA /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35CF0292EF4C3F82A8698032776A5BFB /* PBXContainerItemProxy */ = {
+		4DF917ECCB2D09A912909A45737282D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E84B54C67AA2D084821E0B65836373F4;
 			remoteInfo = TenjinSDK;
 		};
-		736239A3034D9FEB28C6DE1BA7F6749F /* PBXContainerItemProxy */ = {
+		8AF521071E02D99EF8EC63112115359B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 272F4AB0B6E4C1575E9512C0319FBFD6;
 			remoteInfo = "Pods-tenjin-ios-sdk-demo";
 		};
-		D52F13FE9F39191785A3EDE26735AF6F /* PBXContainerItemProxy */ = {
+		A4D3DF94EBCA8BCAB7E9B0AA2AE05A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC46914A3617E8E5EA6E625B5DD1684;
+			remoteInfo = AppLovinSDK;
+		};
+		BB93A807818BE1699684657E7932DBCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E84B54C67AA2D084821E0B65836373F4;
 			remoteInfo = TenjinSDK;
 		};
+		F6741ADC8B0C798B2749303C5854A4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC46914A3617E8E5EA6E625B5DD1684;
+			remoteInfo = AppLovinSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0111384E931F6DDD4855FDB68078858E /* Pods-tenjin-ios-sdk-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		01ED3002921A5F7BAA660550794C3B25 /* Pods-tenjin-ios-sdk-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1583E5B566190A3B5E46D62B9524F206 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m"; sourceTree = "<group>"; };
-		1606844FC8BFAE2A05F6BB843057DF6F /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1675A4567D74F81B647AC4AA11080436 /* Pods-tenjin-ios-sdk-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-demo.modulemap"; sourceTree = "<group>"; };
-		16D63AB970AC16C615A7355449D83C00 /* Pods-tenjin-ios-sdk-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demoTests.release.xcconfig"; sourceTree = "<group>"; };
-		3190D2517671175DBF28585488DCCE64 /* Pods-tenjin-ios-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		42D561302A35B692BF1C0770306B9F9B /* Pods-tenjin-ios-sdk-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-demo-umbrella.h"; sourceTree = "<group>"; };
-		453DDDF1AAE61BEB34F9C7AD707C87FE /* TenjinSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TenjinSDK.h; sourceTree = "<group>"; };
-		4B474FBCD65AD0E473FA22DDDDFD4037 /* Pods-tenjin-ios-sdk-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-demo-dummy.m"; sourceTree = "<group>"; };
-		4C0DEDB589FCC590CA111B052EEB7F6F /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap"; sourceTree = "<group>"; };
-		4EC110AB527480573257CEA811D04942 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist"; sourceTree = "<group>"; };
-		64D204B76F8BD9ED6D2BAD001E4C5279 /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		724F5A210FA7E4A3D3DD711F76D77039 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DE4621F0B6489312983C48A199A2BB4 /* libTenjinSDKUniversal.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libTenjinSDKUniversal.a; sourceTree = "<group>"; };
+		105AFF3C14CCA612F88E1DCB9C3E4DC0 /* Pods-tenjin-ios-sdk-demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-Info.plist"; sourceTree = "<group>"; };
+		10AFFA423EC0872F2B197D8E8550F21C /* Pods-tenjin-ios-sdk-demoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-demoTests-umbrella.h"; sourceTree = "<group>"; };
+		27A430C9AC6806216A5066CE2932FE79 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		283A70FCC7A1D258E44ED5F22910F8A1 /* AppLovinSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppLovinSDK.release.xcconfig; sourceTree = "<group>"; };
+		2B06388641AEE2F80E739CB2B2728C66 /* Pods-tenjin-ios-sdk-demoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-demoTests.modulemap"; sourceTree = "<group>"; };
+		2B8869EFCB348A229638903B51E0F27A /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C92931C1F85FC377CB7AE9BB4E142AA /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m"; sourceTree = "<group>"; };
+		307AF1A26F019E703CB6B9D97467E53A /* TenjinSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenjinSDK.release.xcconfig; sourceTree = "<group>"; };
+		39E41F526B8CCD9CB48D257ABC28BD0A /* Pods-tenjin-ios-sdk-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E9B87AA79AA6B51109A075E73079FAF /* Pods-tenjin-ios-sdk-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4598E326D1470F431B0148360CFA4A74 /* TenjinSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TenjinSDK.h; sourceTree = "<group>"; };
+		462F451E01629EE48B4C21043747BB96 /* Pods-tenjin-ios-sdk-demoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demoTests-Info.plist"; sourceTree = "<group>"; };
+		4D3AE69B1259D4192BFAEF7F21A80AEB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap"; sourceTree = "<group>"; };
+		4D41086464D7CE64D9491B2EA02E2DF0 /* Pods-tenjin-ios-sdk-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8F94AE69AD6A81FA92DF6C80E84340 /* Pods-tenjin-ios-sdk-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-demoTests-dummy.m"; sourceTree = "<group>"; };
+		5A52BC01FA654C3C3E787A2FF0AAB2F1 /* Pods-tenjin-ios-sdk-demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tenjin-ios-sdk-demo-resources.sh"; sourceTree = "<group>"; };
+		692D6F6703D73966C9900976D6963B44 /* Pods-tenjin-ios-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		69823A7F0D441A1BAA73AFEBEB7A975F /* AppLovinSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinSDK.xcframework; path = "applovin-ios-sdk-11.3.2/AppLovinSDK.xcframework"; sourceTree = "<group>"; };
+		72D4C7F3680C517AEFDB5F87C01401EB /* TenjinSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenjinSDK.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73AE36022A9BA6B876E06DCFF3F84E61 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D2C1CD56D5D73787ABE0931D4FB14EB /* Pods-tenjin-ios-sdk-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-demo.modulemap"; sourceTree = "<group>"; };
 		814281E911041CFF52851ED3A7443B8D /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests"; path = Pods_tenjin_ios_sdk_demo_tenjin_ios_sdk_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83E085271938020230F3F42E0D237E9E /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h"; sourceTree = "<group>"; };
+		8BC0C516BC366C12C57A15E7A7AAEAA8 /* Pods-tenjin-ios-sdk-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-demo-dummy.m"; sourceTree = "<group>"; };
 		8C4DBD414E99255096EA7DF1DC39A50A /* Pods-tenjin-ios-sdk-demo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenjin-ios-sdk-demo"; path = Pods_tenjin_ios_sdk_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9428429D751068D99930A1B4626FF5F4 /* Pods-tenjin-ios-sdk-demoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demoTests-Info.plist"; sourceTree = "<group>"; };
-		96F9BAF486111623BED6281A86D4A04F /* libTenjinSDKUniversal.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libTenjinSDKUniversal.a; sourceTree = "<group>"; };
-		98EBF86684E2A7ADA9560F6B1E749DB2 /* Pods-tenjin-ios-sdk-demoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-demoTests-umbrella.h"; sourceTree = "<group>"; };
+		9C1D003E6BDBEBCD4A22E33994D007C4 /* AppLovinSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppLovinSDK.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6259B6CFE13C3BF2630722680D07465 /* Pods-tenjin-ios-sdk-demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-Info.plist"; sourceTree = "<group>"; };
-		B1B9044DF8E731D432A9274190BD0CC1 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BF8FA04B48A41D6C51724C36468B6CFB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C1635DB322247092F3B6CA23582C773D /* TenjinSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenjinSDK.debug.xcconfig; sourceTree = "<group>"; };
-		C1C5BD0D23E11F53AECA042737504A64 /* Pods-tenjin-ios-sdk-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE58A4BB1345D075B3960707B865F104 /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D14B421E8CDBF8E749DA1652739005EB /* Pods-tenjin-ios-sdk-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tenjin-ios-sdk-demoTests-dummy.m"; sourceTree = "<group>"; };
-		D3B4E17631E9013CCC538EDD5566A5EF /* TenjinSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TenjinSDK.release.xcconfig; sourceTree = "<group>"; };
-		D5D2AA643964BB2EB92DEB8B1B20B0CE /* Pods-tenjin-ios-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
+		A4C1BFEDD53350C03AA297AB124744A2 /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tenjin-ios-sdk-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A912EC18E3206BA9095C0803F3CA2908 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E40D69EF37B58638DEE23B956A3185 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h"; sourceTree = "<group>"; };
+		CF86398DFDDAE1FAA090C2145C124D18 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AppLovinSDKResources.bundle; path = "applovin-ios-sdk-11.3.2/AppLovinSDKResources.bundle"; sourceTree = "<group>"; };
+		D18620360E6CD60B6A33F45EAB2D62B4 /* AppLovinSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppLovinSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		D4B6B25A61BF8933FD956BFE12C2B14B /* Pods-tenjin-ios-sdk-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tenjin-ios-sdk-demo-umbrella.h"; sourceTree = "<group>"; };
 		D791B6A1165441314CEA061676D8294F /* Pods-tenjin-ios-sdk-demoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tenjin-ios-sdk-demoTests"; path = Pods_tenjin_ios_sdk_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F46106B98596FA53E2EA4F1145D9F758 /* Pods-tenjin-ios-sdk-demoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tenjin-ios-sdk-demoTests.modulemap"; sourceTree = "<group>"; };
+		EAF9482F0E7C9E0402975BC1AC80548C /* Pods-tenjin-ios-sdk-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEB073E99AD089E7D8300BD00A73E761 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist"; sourceTree = "<group>"; };
+		EEB5475D5C6654F02B83E1B9690B45C3 /* Pods-tenjin-ios-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tenjin-ios-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
+		F4DBADECE94CE40F0AEF899CF360B1EC /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tenjin-ios-sdk-demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8B13E1DA09B600DCFF051CBE931ABBB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62554DC7246246EB793A3EF185D38C6B /* Frameworks */ = {
+		50C11B9CEFB1F7D855076D8389CE0AF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A02A206C02D9CF8A0BEAFEB5DD51746 /* Foundation.framework in Frameworks */,
+				196C247FA4DC1D68EB86D72A33081DE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,47 +138,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A17E271CF6D66C730321F281E62F569 /* Frameworks */ = {
+		6CBF8786AE96B408A040F64986E17E4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6532AC11828227A29C25E5165751ED /* Foundation.framework in Frameworks */,
+				7536006C5EAAF25781C8FD238BC56764 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15F2C3FD117CA9EF5D70068A7E77EF0C /* Pods-tenjin-ios-sdk-demo */ = {
+		2F7DA7C0AAF2B0E3105C5BACFF25F7F2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1675A4567D74F81B647AC4AA11080436 /* Pods-tenjin-ios-sdk-demo.modulemap */,
-				C1C5BD0D23E11F53AECA042737504A64 /* Pods-tenjin-ios-sdk-demo-acknowledgements.markdown */,
-				0111384E931F6DDD4855FDB68078858E /* Pods-tenjin-ios-sdk-demo-acknowledgements.plist */,
-				4B474FBCD65AD0E473FA22DDDDFD4037 /* Pods-tenjin-ios-sdk-demo-dummy.m */,
-				A6259B6CFE13C3BF2630722680D07465 /* Pods-tenjin-ios-sdk-demo-Info.plist */,
-				42D561302A35B692BF1C0770306B9F9B /* Pods-tenjin-ios-sdk-demo-umbrella.h */,
-				3190D2517671175DBF28585488DCCE64 /* Pods-tenjin-ios-sdk-demo.debug.xcconfig */,
-				D5D2AA643964BB2EB92DEB8B1B20B0CE /* Pods-tenjin-ios-sdk-demo.release.xcconfig */,
+				DF347CE8C1E42208AF1C716FD1C0A150 /* Pods-tenjin-ios-sdk-demo */,
+				D79145D96A3F3F3E8EBAD4FB84A3B6C4 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */,
+				807F854F98735BA68BF99D85131ED4FB /* Pods-tenjin-ios-sdk-demoTests */,
 			);
-			name = "Pods-tenjin-ios-sdk-demo";
-			path = "Target Support Files/Pods-tenjin-ios-sdk-demo";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2CA74008B6A1DA974D97E2C819D88737 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */ = {
+		320A7680E85E99F34D79EF9C24D429A8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C0DEDB589FCC590CA111B052EEB7F6F /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap */,
-				BF8FA04B48A41D6C51724C36468B6CFB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.markdown */,
-				724F5A210FA7E4A3D3DD711F76D77039 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.plist */,
-				1583E5B566190A3B5E46D62B9524F206 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m */,
-				4EC110AB527480573257CEA811D04942 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist */,
-				83E085271938020230F3F42E0D237E9E /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h */,
-				1606844FC8BFAE2A05F6BB843057DF6F /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig */,
-				B1B9044DF8E731D432A9274190BD0CC1 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig */,
+				D18620360E6CD60B6A33F45EAB2D62B4 /* AppLovinSDK-xcframeworks.sh */,
+				9C1D003E6BDBEBCD4A22E33994D007C4 /* AppLovinSDK.debug.xcconfig */,
+				283A70FCC7A1D258E44ED5F22910F8A1 /* AppLovinSDK.release.xcconfig */,
 			);
-			name = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests";
-			path = "Target Support Files/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests";
+			name = "Support Files";
+			path = "../Target Support Files/AppLovinSDK";
+			sourceTree = "<group>";
+		};
+		4B36DCE75FA806C6334521802ACABF04 /* AppLovinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F241F68436D188C36DBF654922AD2B13 /* Frameworks */,
+				94296938088CBA51D066EAD30067A8E7 /* Resources */,
+				320A7680E85E99F34D79EF9C24D429A8 /* Support Files */,
+			);
+			name = AppLovinSDK;
+			path = AppLovinSDK;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -158,33 +189,49 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6E2900541949B16841D05B19743FAE20 /* Support Files */ = {
+		807F854F98735BA68BF99D85131ED4FB /* Pods-tenjin-ios-sdk-demoTests */ = {
 			isa = PBXGroup;
 			children = (
-				C1635DB322247092F3B6CA23582C773D /* TenjinSDK.debug.xcconfig */,
-				D3B4E17631E9013CCC538EDD5566A5EF /* TenjinSDK.release.xcconfig */,
+				2B06388641AEE2F80E739CB2B2728C66 /* Pods-tenjin-ios-sdk-demoTests.modulemap */,
+				A4C1BFEDD53350C03AA297AB124744A2 /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.markdown */,
+				F4DBADECE94CE40F0AEF899CF360B1EC /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.plist */,
+				4F8F94AE69AD6A81FA92DF6C80E84340 /* Pods-tenjin-ios-sdk-demoTests-dummy.m */,
+				462F451E01629EE48B4C21043747BB96 /* Pods-tenjin-ios-sdk-demoTests-Info.plist */,
+				10AFFA423EC0872F2B197D8E8550F21C /* Pods-tenjin-ios-sdk-demoTests-umbrella.h */,
+				3E9B87AA79AA6B51109A075E73079FAF /* Pods-tenjin-ios-sdk-demoTests.debug.xcconfig */,
+				4D41086464D7CE64D9491B2EA02E2DF0 /* Pods-tenjin-ios-sdk-demoTests.release.xcconfig */,
+			);
+			name = "Pods-tenjin-ios-sdk-demoTests";
+			path = "Target Support Files/Pods-tenjin-ios-sdk-demoTests";
+			sourceTree = "<group>";
+		};
+		94296938088CBA51D066EAD30067A8E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF86398DFDDAE1FAA090C2145C124D18 /* AppLovinSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F6C7124F62817ED3FDD33A5294C398C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72D4C7F3680C517AEFDB5F87C01401EB /* TenjinSDK.debug.xcconfig */,
+				307AF1A26F019E703CB6B9D97467E53A /* TenjinSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TenjinSDK";
 			sourceTree = "<group>";
 		};
-		79FC86308F3D415C98AABA649684F85F /* TenjinSDK */ = {
+		A2E14EB73F476443FCEB1B866CD88677 /* TenjinSDK */ = {
 			isa = PBXGroup;
 			children = (
-				453DDDF1AAE61BEB34F9C7AD707C87FE /* TenjinSDK.h */,
-				8E1F8B3F83A4E3CADE9A33B0D8A0E460 /* Frameworks */,
-				6E2900541949B16841D05B19743FAE20 /* Support Files */,
+				4598E326D1470F431B0148360CFA4A74 /* TenjinSDK.h */,
+				E51E2405FA923DC29B653072C93FF1C5 /* Frameworks */,
+				9F6C7124F62817ED3FDD33A5294C398C /* Support Files */,
 			);
 			name = TenjinSDK;
 			path = TenjinSDK;
-			sourceTree = "<group>";
-		};
-		8E1F8B3F83A4E3CADE9A33B0D8A0E460 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				96F9BAF486111623BED6281A86D4A04F /* libTenjinSDKUniversal.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC9D4E693BD7EBC169870B4353A1830A /* Products */ = {
@@ -197,32 +244,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C017F5111B2198005E6F8D6A59286887 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				15F2C3FD117CA9EF5D70068A7E77EF0C /* Pods-tenjin-ios-sdk-demo */,
-				2CA74008B6A1DA974D97E2C819D88737 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */,
-				E12F3926369C5D3D0CAAC42C2BB7E112 /* Pods-tenjin-ios-sdk-demoTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CA75CAD392F22A6B073C0B11906684EC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				79FC86308F3D415C98AABA649684F85F /* TenjinSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CA75CAD392F22A6B073C0B11906684EC /* Pods */,
+				F882A37DEB95AAD0D9C614F0EC9CB971 /* Pods */,
 				BC9D4E693BD7EBC169870B4353A1830A /* Products */,
-				C017F5111B2198005E6F8D6A59286887 /* Targets Support Files */,
+				2F7DA7C0AAF2B0E3105C5BACFF25F7F2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,30 +263,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E12F3926369C5D3D0CAAC42C2BB7E112 /* Pods-tenjin-ios-sdk-demoTests */ = {
+		D79145D96A3F3F3E8EBAD4FB84A3B6C4 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F46106B98596FA53E2EA4F1145D9F758 /* Pods-tenjin-ios-sdk-demoTests.modulemap */,
-				64D204B76F8BD9ED6D2BAD001E4C5279 /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.markdown */,
-				CE58A4BB1345D075B3960707B865F104 /* Pods-tenjin-ios-sdk-demoTests-acknowledgements.plist */,
-				D14B421E8CDBF8E749DA1652739005EB /* Pods-tenjin-ios-sdk-demoTests-dummy.m */,
-				9428429D751068D99930A1B4626FF5F4 /* Pods-tenjin-ios-sdk-demoTests-Info.plist */,
-				98EBF86684E2A7ADA9560F6B1E749DB2 /* Pods-tenjin-ios-sdk-demoTests-umbrella.h */,
-				01ED3002921A5F7BAA660550794C3B25 /* Pods-tenjin-ios-sdk-demoTests.debug.xcconfig */,
-				16D63AB970AC16C615A7355449D83C00 /* Pods-tenjin-ios-sdk-demoTests.release.xcconfig */,
+				4D3AE69B1259D4192BFAEF7F21A80AEB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap */,
+				73AE36022A9BA6B876E06DCFF3F84E61 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.markdown */,
+				2B8869EFCB348A229638903B51E0F27A /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-acknowledgements.plist */,
+				2C92931C1F85FC377CB7AE9BB4E142AA /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m */,
+				EEB073E99AD089E7D8300BD00A73E761 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist */,
+				F8B13E1DA09B600DCFF051CBE931ABBB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-resources.sh */,
+				B3E40D69EF37B58638DEE23B956A3185 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h */,
+				A912EC18E3206BA9095C0803F3CA2908 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig */,
+				27A430C9AC6806216A5066CE2932FE79 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig */,
 			);
-			name = "Pods-tenjin-ios-sdk-demoTests";
-			path = "Target Support Files/Pods-tenjin-ios-sdk-demoTests";
+			name = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests";
+			path = "Target Support Files/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests";
+			sourceTree = "<group>";
+		};
+		DF347CE8C1E42208AF1C716FD1C0A150 /* Pods-tenjin-ios-sdk-demo */ = {
+			isa = PBXGroup;
+			children = (
+				7D2C1CD56D5D73787ABE0931D4FB14EB /* Pods-tenjin-ios-sdk-demo.modulemap */,
+				39E41F526B8CCD9CB48D257ABC28BD0A /* Pods-tenjin-ios-sdk-demo-acknowledgements.markdown */,
+				EAF9482F0E7C9E0402975BC1AC80548C /* Pods-tenjin-ios-sdk-demo-acknowledgements.plist */,
+				8BC0C516BC366C12C57A15E7A7AAEAA8 /* Pods-tenjin-ios-sdk-demo-dummy.m */,
+				105AFF3C14CCA612F88E1DCB9C3E4DC0 /* Pods-tenjin-ios-sdk-demo-Info.plist */,
+				5A52BC01FA654C3C3E787A2FF0AAB2F1 /* Pods-tenjin-ios-sdk-demo-resources.sh */,
+				D4B6B25A61BF8933FD956BFE12C2B14B /* Pods-tenjin-ios-sdk-demo-umbrella.h */,
+				692D6F6703D73966C9900976D6963B44 /* Pods-tenjin-ios-sdk-demo.debug.xcconfig */,
+				EEB5475D5C6654F02B83E1B9690B45C3 /* Pods-tenjin-ios-sdk-demo.release.xcconfig */,
+			);
+			name = "Pods-tenjin-ios-sdk-demo";
+			path = "Target Support Files/Pods-tenjin-ios-sdk-demo";
+			sourceTree = "<group>";
+		};
+		E51E2405FA923DC29B653072C93FF1C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4621F0B6489312983C48A199A2BB4 /* libTenjinSDKUniversal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F241F68436D188C36DBF654922AD2B13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69823A7F0D441A1BAA73AFEBEB7A975F /* AppLovinSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F882A37DEB95AAD0D9C614F0EC9CB971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B36DCE75FA806C6334521802ACABF04 /* AppLovinSDK */,
+				A2E14EB73F476443FCEB1B866CD88677 /* TenjinSDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		140ABE94C46E75AD3F9F1F2C40931AA7 /* Headers */ = {
+		9EB6E7C7157648D44B78AC289AE34AFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0019F2317C49C232AF454F2407FC980A /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h in Headers */,
+				B4D3FA4E6A26F0EA0FA40B83CC337D11 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE392FA34C51999FA916AE183A46062 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92EB4637B60DFD5DEDDFF8D5BA518F8 /* Pods-tenjin-ios-sdk-demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,30 +349,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA8CBED69E6CE4AD6C51BFFB88C1C2B9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B41F859AAF38A7FC85851ACE81FBBA1B /* Pods-tenjin-ios-sdk-demo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		272F4AB0B6E4C1575E9512C0319FBFD6 /* Pods-tenjin-ios-sdk-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84201585CB7DD5F7BD542B16CB9FD6E5 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo" */;
+			buildConfigurationList = A6FCB4C6B5FC208237606AF175F1FB8B /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo" */;
 			buildPhases = (
-				FA8CBED69E6CE4AD6C51BFFB88C1C2B9 /* Headers */,
-				11441051DCB1077531586BBFDDDB42D1 /* Sources */,
-				62554DC7246246EB793A3EF185D38C6B /* Frameworks */,
-				74D2C11064B8DA7EF8C7C430A9358DBE /* Resources */,
+				9FE392FA34C51999FA916AE183A46062 /* Headers */,
+				5C04AFAB519D790B2EF10AD384CF5DC5 /* Sources */,
+				6CBF8786AE96B408A040F64986E17E4E /* Frameworks */,
+				3B6EFDFCD385EFA5383734BF72561FD5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D086D3433A66B3B357A6D26A18FF802 /* PBXTargetDependency */,
+				A870BD0A4E0C4404E461648DA4BFBFC8 /* PBXTargetDependency */,
+				F5DCC6BD0399F945B40DB7FA52AA52FE /* PBXTargetDependency */,
 			);
 			name = "Pods-tenjin-ios-sdk-demo";
 			productName = Pods_tenjin_ios_sdk_demo;
@@ -301,17 +374,18 @@
 		};
 		63DF0C0A016CD5D400EE8CC35B8479BB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3898D56188D7D541BDB1348AC7C1B0 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests" */;
+			buildConfigurationList = 1EDC7E217AE6F203C59C336473935593 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests" */;
 			buildPhases = (
-				140ABE94C46E75AD3F9F1F2C40931AA7 /* Headers */,
-				9F52627AAB0CA9067181B9846975CEDE /* Sources */,
-				8A17E271CF6D66C730321F281E62F569 /* Frameworks */,
-				402D6665A9437D352B6BC1754EA679EA /* Resources */,
+				9EB6E7C7157648D44B78AC289AE34AFC /* Headers */,
+				86BB904CECBFE79E820C6DB89206EC5C /* Sources */,
+				50C11B9CEFB1F7D855076D8389CE0AF2 /* Frameworks */,
+				10A8FECB5366EBDAEBC30F115D9C2138 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E92BC2936D4C2DF8E5EB83DE3CE271ED /* PBXTargetDependency */,
+				9DFFA461B935F4C07773CC411C9EFED0 /* PBXTargetDependency */,
+				5C7F41F93CA8292115BE255DB55E874C /* PBXTargetDependency */,
 			);
 			name = "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests";
 			productName = Pods_tenjin_ios_sdk_demo_tenjin_ios_sdk_demoUITests;
@@ -330,7 +404,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				15CF084D9BD15AE15409752992830FA5 /* PBXTargetDependency */,
+				9A7F05A2CD582B0887B18CA523A5BBFE /* PBXTargetDependency */,
 			);
 			name = "Pods-tenjin-ios-sdk-demoTests";
 			productName = Pods_tenjin_ios_sdk_demoTests;
@@ -359,6 +433,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */,
 				272F4AB0B6E4C1575E9512C0319FBFD6 /* Pods-tenjin-ios-sdk-demo */,
 				63DF0C0A016CD5D400EE8CC35B8479BB /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests */,
 				79118A6DFF3EBD1B34D0D526226D0DCC /* Pods-tenjin-ios-sdk-demoTests */,
@@ -368,14 +443,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		402D6665A9437D352B6BC1754EA679EA /* Resources */ = {
+		10A8FECB5366EBDAEBC30F115D9C2138 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74D2C11064B8DA7EF8C7C430A9358DBE /* Resources */ = {
+		3B6EFDFCD385EFA5383734BF72561FD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,15 +466,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		11441051DCB1077531586BBFDDDB42D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		0767D10B049CB169F35806FA0DC22F33 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5B342CB147CFDA57F800FE970417F5 /* Pods-tenjin-ios-sdk-demo-dummy.m in Sources */,
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppLovinSDK/AppLovinSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppLovinSDK/AppLovinSDK-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppLovinSDK/AppLovinSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		1D1BD3096DF6EB9452C359E854FA9FC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,41 +495,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F52627AAB0CA9067181B9846975CEDE /* Sources */ = {
+		5C04AFAB519D790B2EF10AD384CF5DC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48842624C7D19A07300FE4E4D9745BF0 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m in Sources */,
+				9B858270A87E53F70D80777178EC1B55 /* Pods-tenjin-ios-sdk-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BB904CECBFE79E820C6DB89206EC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB4211D91E63E393B259CC8B5D2C093 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15CF084D9BD15AE15409752992830FA5 /* PBXTargetDependency */ = {
+		5C7F41F93CA8292115BE255DB55E874C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TenjinSDK;
+			target = E84B54C67AA2D084821E0B65836373F4 /* TenjinSDK */;
+			targetProxy = BB93A807818BE1699684657E7932DBCF /* PBXContainerItemProxy */;
+		};
+		9A7F05A2CD582B0887B18CA523A5BBFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-tenjin-ios-sdk-demo";
 			target = 272F4AB0B6E4C1575E9512C0319FBFD6 /* Pods-tenjin-ios-sdk-demo */;
-			targetProxy = 736239A3034D9FEB28C6DE1BA7F6749F /* PBXContainerItemProxy */;
+			targetProxy = 8AF521071E02D99EF8EC63112115359B /* PBXContainerItemProxy */;
 		};
-		9D086D3433A66B3B357A6D26A18FF802 /* PBXTargetDependency */ = {
+		9DFFA461B935F4C07773CC411C9EFED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppLovinSDK;
+			target = 5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */;
+			targetProxy = A4D3DF94EBCA8BCAB7E9B0AA2AE05A18 /* PBXContainerItemProxy */;
+		};
+		A870BD0A4E0C4404E461648DA4BFBFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppLovinSDK;
+			target = 5BC46914A3617E8E5EA6E625B5DD1684 /* AppLovinSDK */;
+			targetProxy = F6741ADC8B0C798B2749303C5854A4E0 /* PBXContainerItemProxy */;
+		};
+		F5DCC6BD0399F945B40DB7FA52AA52FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TenjinSDK;
 			target = E84B54C67AA2D084821E0B65836373F4 /* TenjinSDK */;
-			targetProxy = D52F13FE9F39191785A3EDE26735AF6F /* PBXContainerItemProxy */;
-		};
-		E92BC2936D4C2DF8E5EB83DE3CE271ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TenjinSDK;
-			target = E84B54C67AA2D084821E0B65836373F4 /* TenjinSDK */;
-			targetProxy = 35CF0292EF4C3F82A8698032776A5BFB /* PBXContainerItemProxy */;
+			targetProxy = 4DF917ECCB2D09A912909A45737282D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0EBE00BC9BFAC81CA2677C9C0BDF6BB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1635DB322247092F3B6CA23582C773D /* TenjinSDK.debug.xcconfig */;
+			baseConfigurationReference = 72D4C7F3680C517AEFDB5F87C01401EB /* TenjinSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,7 +565,7 @@
 		};
 		0F07899A1514FAE2DF1EBA3431B59209 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3B4E17631E9013CCC538EDD5566A5EF /* TenjinSDK.release.xcconfig */;
+			baseConfigurationReference = 307AF1A26F019E703CB6B9D97467E53A /* TenjinSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,9 +580,26 @@
 			};
 			name = Release;
 		};
-		307496B5D51A6BA97434B7034E9F3B28 /* Debug */ = {
+		133D3F0DD5EC7C1ACCCA6DE6474A7C77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1606844FC8BFAE2A05F6BB843057DF6F /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig */;
+			baseConfigurationReference = 283A70FCC7A1D258E44ED5F22910F8A1 /* AppLovinSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3378F5FB91B27CD5BD09C2CD8DCE30BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A912EC18E3206BA9095C0803F3CA2908 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -576,9 +700,9 @@
 			};
 			name = Debug;
 		};
-		5F5F220C315558578C13B7B0CBE9E4BF /* Release */ = {
+		51B0A5442CF33D598A9A1FD0BF750E0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5D2AA643964BB2EB92DEB8B1B20B0CE /* Pods-tenjin-ios-sdk-demo.release.xcconfig */;
+			baseConfigurationReference = 692D6F6703D73966C9900976D6963B44 /* Pods-tenjin-ios-sdk-demo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -608,15 +732,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6AD7E8B0EA0CAB5845D83DB691DE46AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01ED3002921A5F7BAA660550794C3B25 /* Pods-tenjin-ios-sdk-demoTests.debug.xcconfig */;
+			baseConfigurationReference = 3E9B87AA79AA6B51109A075E73079FAF /* Pods-tenjin-ios-sdk-demoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -650,81 +773,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		721FEDCC42A2C273291C2F10F14DF6F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3190D2517671175DBF28585488DCCE64 /* Pods-tenjin-ios-sdk-demo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo/Pods-tenjin-ios-sdk-demo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo/Pods-tenjin-ios-sdk-demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A695CB853D88C638B88B591A2FA03900 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1B9044DF8E731D432A9274190BD0CC1 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -788,9 +836,47 @@
 			};
 			name = Release;
 		};
+		D59AE69DE4875D16A3CCC62C6F622381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A430C9AC6806216A5066CE2932FE79 /* Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests/Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E688D2935735122ED86500FC20075FB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16D63AB970AC16C615A7355449D83C00 /* Pods-tenjin-ios-sdk-demoTests.release.xcconfig */;
+			baseConfigurationReference = 4D41086464D7CE64D9491B2EA02E2DF0 /* Pods-tenjin-ios-sdk-demoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -826,14 +912,77 @@
 			};
 			name = Release;
 		};
+		EE4CA1BDE2887B20534B93F62DA178C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB5475D5C6654F02B83E1B9690B45C3 /* Pods-tenjin-ios-sdk-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo/Pods-tenjin-ios-sdk-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tenjin-ios-sdk-demo/Pods-tenjin-ios-sdk-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBB4305377262D0A38AA25406BD17EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1D003E6BDBEBCD4A22E33994D007C4 /* AppLovinSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E3898D56188D7D541BDB1348AC7C1B0 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests" */ = {
+		1137672E97496FACD0DD9E48E86C50EF /* Build configuration list for PBXAggregateTarget "AppLovinSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				307496B5D51A6BA97434B7034E9F3B28 /* Debug */,
-				A695CB853D88C638B88B591A2FA03900 /* Release */,
+				FBB4305377262D0A38AA25406BD17EAA /* Debug */,
+				133D3F0DD5EC7C1ACCCA6DE6474A7C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDC7E217AE6F203C59C336473935593 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo-tenjin-ios-sdk-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3378F5FB91B27CD5BD09C2CD8DCE30BE /* Debug */,
+				D59AE69DE4875D16A3CCC62C6F622381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -847,20 +996,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84201585CB7DD5F7BD542B16CB9FD6E5 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				721FEDCC42A2C273291C2F10F14DF6F9 /* Debug */,
-				5F5F220C315558578C13B7B0CBE9E4BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8AFBBE287CFD4C39F544C70F0FF24004 /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AD7E8B0EA0CAB5845D83DB691DE46AD /* Debug */,
 				E688D2935735122ED86500FC20075FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FCB4C6B5FC208237606AF175F1FB8B /* Build configuration list for PBXNativeTarget "Pods-tenjin-ios-sdk-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B0A5442CF33D598A9A1FD0BF750E0E /* Debug */,
+				EE4CA1BDE2887B20534B93F62DA178C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
